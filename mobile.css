@@ -1,0 +1,55 @@
+:root {
+    /*Primary Colors*/
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+
+    /*Neutral Colors*/
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+/* main {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+} */
+
+.main-title {
+    text-align: center;
+    padding-bottom: 30px;
+    color: var(--Very-Dark-Magenta);
+}
+
+.offer {line-height: 2.6rem;
+    text-align: center;
+    color: var(--Dark-Grayish-Magenta);
+}
+
+.rated-card {
+    min-width: 200px;
+    height: 90px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: var(--Light-Grayish-Magenta);
+}
+
+.rated-card .star-icon {
+    
+}
