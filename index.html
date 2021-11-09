@@ -17,46 +17,57 @@
 
     <title>Frontend Mentor | Social proof section</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
 
     <main>
-      <h1 class="main-title">10,000+ of our users love our products.</h1>
-      <p class="offer">We only provide great products combined with excellent customer service.
+      <div class="main-title-container">
+        <h1 class="main-title">10,000+ of our users love our products.</h1>
+        <p class="offer">We only provide great products combined with excellent customer service.
         See what our satisfied customers are saying about our services.</p>
+      </div>
+
         
-<!--Rated Cards-->        
+<!--Rated Cards-->  
+      <div class="div rated-cards-container">
         <div class="rated-card rated-1">
-          <span class="star-icon"></span>
+          <ul>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+          </ul>
           <p class="rated-title">Rated 5 Stars in Reviews</p>
         </div>
 
         <div class="rated-card rated-2">
-          <span class="star-icon"></span>
+          <ul>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+          </ul>
           <p class="rated-title">Rated 5 Stars in Report Guru</p>
         </div>
 
         <div class="rated-card rated-3">
-          <span class="star-icon"></span>
+          <ul>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+          </ul>
           <p class="rated-title">Rated 5 Stars in BestTech</p>
         </div>
-
+      </div>      
 <!--Testimony Cards-->
         <div class="testimony-card card-1">
           <div class="header-card">
             <span class="profile-pic"></span>
-            <span class="buyer-name">Colton Smith</span>
-            <span class="buyer-verification">Verified Buyer</span>
+            <p class="buyer-name">Colton Smith <br> <span class="buyer-verification">Verified buyer</span></p>
           </div>
           <p class="testimony">
             "We needed the same printed design as the one we had ordered a week prior.
@@ -65,28 +76,28 @@
           </p>
         </div>
         
-        <div class="testimony-card card-2">
-          <div class="header-card">
-            <span class="profile-pic"></span>
-            <span class="buyer-name">Irene Roberts</span>
-            <span class="buyer-verification">Verified Buyer</span>
+        <div class="testimony-container">
+          <div class="testimony-card card-2">
+            <div class="header-card">
+              <span class="profile-pic"></span>
+              <p class="buyer-name">Irene Robert <br> <span class="buyer-verification">Verified buyer</span></p>
+            </div>
+            <p class="testimony">
+              "Customer service is always excellent and very quick turn around. 
+              Completely delighted with the simplicity of the purchase and the speed of delivery."
+            </p>
           </div>
-          <p class="testimony">
-            "Customer service is always excellent and very quick turn around. 
-            Completely delighted with the simplicity of the purchase and the speed of delivery."
-          </p>
-        </div>
-
-        <div class="testimony-card card-3">
-          <div class="header-card">
-            <span class="profile-pic"></span>
-            <span class="buyer-name">Anne Wallace</span>
-            <span class="buyer-verification">Verified Buyer</span>
+  
+          <div class="testimony-card card-3">
+            <div class="header-card">
+              <span class="profile-pic"></span>
+              <p class="buyer-name">Anne Wallace <br> <span class="buyer-verification">Verified buyer</span></p>
+            </div>
+            <p class="testimony">
+              "Put and order with this company and can only praise them for the very high standard.
+              Will definitely use them again and recommend them to everyone!"
+            </p>
           </div>
-          <p class="testimony">
-            "Put and order with this company and can only praise them for the very high standard.
-            Will definitely use them again and recommend them to everyone!"
-          </p>
         </div>
 
     </main>
