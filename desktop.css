@@ -1,0 +1,84 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.bottom-section {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.main-title-container {
+    width: 40%;
+}
+
+.rated-cards-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 60%;
+    padding: 0;
+}
+
+.main-title {
+    font-size: 5rem;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.offer {
+    font-size: 2rem;
+    line-height: 3.5rem;
+    text-align: left;
+}
+
+.rated-card {
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rated-card ul {
+    width: 50%;
+    margin: 0;
+    justify-content: left;
+}
+
+.rated-1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    justify-self: left;
+}
+
+.rated-2 {
+    justify-self: center;
+}
+
+.rated-3 {
+    justify-self: right;
+}
+
+.testimony-card {
+    max-width: 400px;
+    max-height: 400px;
+    margin-bottom: 0px;
+}
